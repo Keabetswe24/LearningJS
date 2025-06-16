@@ -1,0 +1,35 @@
+table{
+    color: #fff;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 3em Arial, Helvetica, sans-serif;
+}
+
+/*Styling the rows and columns of the table*/
+tr{
+    height: 16.67vh; /* 16% (100/6rows) of the vertical height of the window*/
+    background-color: #4e494d;
+}
+
+td{
+    width: 25vw; /*25%  (100/4columns) of the vertical width of the window*/
+    border: 1px solid #4e494d;
+}
+
+#inputBox{       /*Remember that we are referencing an id here and not a class*/
+    background-color: #4e494d;
+    text-align: right;
+    width: 99%;
+    font-size: 2em; 
+    color: #fff;
+    border: 0;
+}
+.digitButton{
+    background-color: #807e80;
+}
+.operatorButton{
+    background-color: #ff9e06;
+}
+.ACButton{
+    background-color: #656165;
+}
